@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_amjath_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/9da6c598-0fd9-441a-b762-3cddb0eaaeb9/resourcegroups/az-group-rg/providers/microsoft.insights/components/azure-app-amjath-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>a4ee37bf-0527-4ffb-b7bb-4ff076a53a50</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
